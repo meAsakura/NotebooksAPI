@@ -11,8 +11,8 @@
                 <th>#</th>
                 <th>ID</th>
                 <th>Name</th>
-                <th>Lastname</th>
                 <th>Secondname</th>
+                <th>Lastname</th>
                 <th>Company</th>
                 <th>Phone</th>
                 <th>Email</th>
@@ -29,15 +29,15 @@
                 @endif
             <tr>
                 <td>{{ ++$key}} </td>
-                <td>{{ $notebook->id }}</td>
-                <td>{{ $notebook->name }}</td>
-                <td>{{ $notebook->lastname }}</td>
-                <td>{{ $notebook->secondname }}</td>
-                <td>{{ $notebook->company }}</td>
-                <td>{{ $notebook->phone }}</td>
-                <td>{{ $notebook->email }}</td>
-                <td>{{ $notebook->birthdate }}</td>
-                <td>{{ $notebook->image }}</td>
+                <td>{{ $notebook->ID }}</td>
+                <td>{{ $notebook->Name }}</td>
+                <td>{{ $notebook->Secondname }}</td>
+                <td>{{ $notebook->Lastname }}</td>
+                <td>{{ $notebook->Company }}</td>
+                <td>{{ $notebook->Phone }}</td>
+                <td>{{ $notebook->Email }}</td>
+                <td>{{ $notebook->Birthdate }}</td>
+                <td>{{ $notebook->Image }}</td>
                 </td>
             </tr>
             @endforeach
