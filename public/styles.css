@@ -1,9 +1,8 @@
 button, input, label, h1, h4 {
-    margin-right: auto;
-    margin-left: auto;
     text-align: left;
     justify-content: center;
-    display: inline;
+    display: table-cell;
+    align-items: center;
 }
 
 body {
