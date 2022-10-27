@@ -13,8 +13,7 @@ class ListofNotebooksController extends Controller
         $instance = json_decode(Route::dispatch($request)->getContent());
         if (empty($instance->result->data))
             return redirect()->route('control')->withErrors(['Error' => $instance->error]);
-        echo view('table', ['instance' => $instance->result->data]);
-        
+        echo view('table', ['instance' => $instance->result->data]); 
     }
 
     public function get_notebook_by_id(Request $request) {
