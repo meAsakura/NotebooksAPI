@@ -1,0 +1,16 @@
+button, input, label, h1, h4 {
+    margin-right: auto;
+    margin-left: auto;
+    text-align: left;
+    justify-content: center;
+    display: inline;
+}
+
+body {
+    padding: 10px;
+}
+
+input {
+    width: 150px !important;
+    display: inline-block !important;
+}
