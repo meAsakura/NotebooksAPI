@@ -1,5 +1,6 @@
 # NotebooksAPI
- First time with REST API
+ This is my first time to create REST API - NotebooksAPI. Docker Image will & link will be as soon as I learn how Docker works ;)
+ I use XAMPP (Apache & MySQL) as web-server and database.
  
 # Database structure
  ![image](https://user-images.githubusercontent.com/36971976/198272498-a9c2cc11-f468-4378-8f52-599a4568d180.png)
