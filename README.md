@@ -24,8 +24,8 @@ button 'Show notebooks' - redirects to the datatable's page with all notebooks
 ![image](https://user-images.githubusercontent.com/36971976/199007279-b2081b57-ae5c-451f-a1e2-42e27bdc047b.png)
 
 # Example of success request
-
  .Request to delete notebook with ID 10
+ 
 ![image](https://user-images.githubusercontent.com/36971976/199007471-a73f8879-a032-482e-a631-2ce69857bf53.png)
 
  .Show all notebooks
